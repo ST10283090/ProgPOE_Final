@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="menu" Height="660" Width="1290">
     <Grid>
-        <Grid Background="AliceBlue" HorizontalAlignment="Left" Height="131" Margin="10,10,0,0" VerticalAlignment="Top" Width="1254">
+        <Grid Background="MediumOrchid" HorizontalAlignment="Left" Height="131" Margin="10,10,0,0" VerticalAlignment="Top" Width="1254">
 
             <Label Content="Please Enter The Number of Ingredients:" HorizontalAlignment="Left" Margin="10,53,0,0" VerticalAlignment="Top" Width="228"/>
 
@@ -69,7 +69,7 @@
 
         <StackPanel HorizontalAlignment="Left" Height="367" Margin="10,146,0,0" VerticalAlignment="Top" Width="922">
 
-            <ScrollViewer x:Name="scrollDisplay" Height="366" Background="Bisque">
+            <ScrollViewer x:Name="scrollDisplay" Height="366" Background="Pink">
                 <StackPanel x:Name="pnlDisplay" Height="328"/>
             </ScrollViewer>
 
@@ -103,7 +103,7 @@
 
         </Grid>
 
-        <TextBlock x:Name="textBlockList" Background="BlanchedAlmond" TextWrapping="Wrap" Margin="937,146,2,1"/>
+        <TextBlock x:Name="textBlockList" Background="LightPink" TextWrapping="Wrap" Margin="937,146,2,1"/>
 
     </Grid>
 </Window>
