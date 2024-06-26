@@ -1,0 +1,27 @@
+﻿<Window x:Class="ProgPOE_Final.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProgPOE_Final"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800"
+        WindowStartupLocation="CenterScreen">
+    <Grid Background="Black">
+        <Grid x:Name="splash">
+            <Grid.Background>
+                <ImageBrush x:Name="splash_" ImageSource="C:\Users\27691\source\repos\ProgPOE_Final\ProgPOE_Final\pictures\splash.jpg" Stretch="Fill"/>
+            </Grid.Background>
+            <Grid VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0,0,0,50">
+                <ProgressBar x:Name="progressBar" Width="400" Height="40"/>
+                <TextBlock Text="Cooking up your app!" 
+                           HorizontalAlignment="Center" 
+                           VerticalAlignment="Center" 
+                           Foreground="Black" 
+                           FontWeight="Bold" Height="16" Width="140"/>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>
+
+
