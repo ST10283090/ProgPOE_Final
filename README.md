@@ -8,3 +8,6 @@ Button is used to add details of a recipe after the user enters initial values, 
 
 
 user is also able to display the full details of any one recipe at a time by inputing the recipe number and is also able to clear all recipes from memory. 
+
+
+user is able to exit the application usning the exit button on the top right hand side 
