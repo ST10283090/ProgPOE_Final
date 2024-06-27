@@ -6,6 +6,7 @@ The entire app is now in WPF, so the user now uses a number of textboxes to inpu
 
 Button is used to add details of a recipe after the user enters initial values, and details are saved using a save and display button.
 
+Initial recipes are shown on the textblock, listed by number and the full recipe is displayed on the scrollviewer
 
 user is also able to display the full details of any one recipe at a time by inputing the recipe number and is also able to clear all recipes from memory. 
 
